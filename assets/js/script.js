@@ -18,7 +18,4 @@ const relogio = setInterval(function time() {
     minutos.textContent = min;
     segundos.textContent = seg;
 
-    horas.classList.add('relogio-mobile');
-    minutos.classList.add('relogio-mobile');
-    segundos.classList.add('relogio-mobile');
 })
